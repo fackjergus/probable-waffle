@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  background: #d8e0f0;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.topbar {
+  background: #003399;
+  color: white;
+  padding: 6px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.topbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.topbar .logo span {
+  color: #ffcc00;
+}
+
+.topbar .nav {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.topbar .nav li {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+}
+
+.profile-pic {
+  width: 100%;
+  border: 3px solid #333;
+}
+
+.details-box,
+.contact-box {
+  background: white;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #bbb;
+}
+
+.contact-box ul {
+  list-style: none;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.contact-box ul li {
+  padding: 4px 0;
+}
+
+/* Main section */
+.main {
+  flex: 1;
+}
+
+.whitebox {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #bbb;
+}
+
+.bullet-list {
+  padding-left: 18px;
+}
+
+.bullet-list li {
+  margin-bottom: 6px;
+}
+
+/* Top Friends */
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.friend {
+  background: #eee;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+
+/* Comments */
+.comment {
+  padding: 10px;
+  background: #eef2ff;
+  border: 1px solid #ccd5ff;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
