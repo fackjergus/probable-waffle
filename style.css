@@ -1,9 +1,11 @@
+/* GLOBAL */
 body {
   margin: 0;
   background: #d8e0f0;
   font-family: Tahoma, Verdana, sans-serif;
 }
 
+/* TOP BAR */
 .topbar {
   background: #003399;
   color: white;
@@ -12,17 +14,17 @@ body {
   align-items: center;
 }
 
-.topbar .logo {
+.logo {
   font-size: 20px;
   font-weight: bold;
   margin-right: 30px;
 }
 
-.topbar .logo span {
+.logo span {
   color: #ffcc00;
 }
 
-.topbar .nav {
+.nav {
   list-style: none;
   display: flex;
   gap: 18px;
@@ -30,21 +32,22 @@ body {
   margin: 0;
 }
 
-.topbar .nav li {
+.nav li {
   cursor: pointer;
   font-size: 14px;
 }
 
+/* LAYOUT */
 .container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 20px auto;
   gap: 20px;
 }
 
-/* Sidebar */
+/* SIDEBAR */
 .sidebar {
-  width: 260px;
+  width: 250px;
 }
 
 .profile-pic {
@@ -60,17 +63,7 @@ body {
   border: 1px solid #bbb;
 }
 
-.contact-box ul {
-  list-style: none;
-  padding-left: 10px;
-  font-size: 14px;
-}
-
-.contact-box ul li {
-  padding: 4px 0;
-}
-
-/* Main section */
+/* MAIN CONTENT */
 .main {
   flex: 1;
 }
@@ -83,14 +76,10 @@ body {
 }
 
 .bullet-list {
-  padding-left: 18px;
+  padding-left: 20px;
 }
 
-.bullet-list li {
-  margin-bottom: 6px;
-}
-
-/* Top Friends */
+/* FRIENDS */
 .friends-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -100,16 +89,15 @@ body {
 .friend {
   background: #eee;
   padding: 10px;
-  text-align: center;
   border: 1px solid #ccc;
+  text-align: center;
   font-size: 13px;
 }
 
-/* Comments */
+/* COMMENTS */
 .comment {
-  padding: 10px;
   background: #eef2ff;
+  padding: 10px;
   border: 1px solid #ccd5ff;
   margin-bottom: 10px;
-  font-size: 14px;
 }
